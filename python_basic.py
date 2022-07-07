@@ -51,7 +51,14 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
   
-  
+# sort
+n = int(input("Enter n number: "))
+a = []
+for i in range(n):
+   a.append(int(input()))
+a.sort()
+for i in a:
+  print(i, end=' ')
   
 # Generator
 def square_nums(list_nums):
@@ -68,3 +75,5 @@ try:
     print(a + b)
 except:
     print('Invalid input')    
+
+

@@ -20,3 +20,4 @@ tup = ('physics', 'chemistry', 1997, 2000)
 print("Before deleting tup: ", tup)
 del tup
 print("After deleting tup : ", tup)
+
