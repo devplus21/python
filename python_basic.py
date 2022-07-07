@@ -1,4 +1,10 @@
-# string
+# Variables in Python
+x = 5
+y = "John"
+print(x)
+print(type(y))
+
+# string in Python
 str = 'hello WORLD'
 
 test_upper = str.upper() # HELLO WORLD
@@ -29,3 +35,15 @@ for i in range(1, 100):
     else:
         print('default')    
         
+# function in Python
+def my_function(fname):
+  print(fname + " Dev")
+
+my_function("Tan")
+my_function("Chi")
+my_function("Hai")
+
+# For Loops in Python
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
